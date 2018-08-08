@@ -23,3 +23,6 @@ with open(input_file,'r',newline='') as filereader:
         	row_list=row.split(',')
         	print(row_list)
             filewriter.write(',',join(map(str,row_list)+'\n'))
+
+
+#----这是一个test
